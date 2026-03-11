@@ -136,7 +136,7 @@ function sendToWhatsApp(data) {
     const encodedMessage = encodeURIComponent(message);
     
     // WhatsApp number (updated for Dietitian Sajal)
-    const whatsappNumber = '923001234567'; // Without + and spaces
+    const whatsappNumber = '923263651982'; // Without + and spaces
     
     // Create WhatsApp URL
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
@@ -707,7 +707,7 @@ function injectAppointmentSchema() {
         "name": "Dietitian Sajal - Clinical Nutritionist",
         "image": "https://ahwm2n1.github.io/Dn-Maryam/images/dietitian-sajal.png",
         "url": "https://ahwm2n1.github.io/Dn-Maryam/appointment.html",
-        "telephone": "+92 300 1234567",
+        "telephone": "+92 326 3651982",
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
@@ -817,4 +817,5 @@ function injectAppointmentSchema() {
         script2.textContent = JSON.stringify(faqSchema);
         document.head.appendChild(script2);
     }
+
 }
