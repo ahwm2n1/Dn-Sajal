@@ -189,12 +189,12 @@ function initAIChat() {
     
     // AI Response database - enhanced with more specific answers
     const aiResponses = {
-        'sialkot': 'Yes, I am based in Sialkot and offer in-person consultations. You can visit my clinic or book an online session. Call +92 300 1234567 for directions.',
+        'sialkot': 'Yes, I am based in Sialkot and offer in-person consultations. You can visit my clinic or book an online session. Call +92 326 3651982 for directions.',
         'pcos': 'For PCOS management, I recommend focusing on: 1️⃣ Low glycemic index foods 2️⃣ Anti-inflammatory diet 3️⃣ Regular meal timings 4️⃣ Adequate protein intake. Would you like a detailed PCOS diet plan tailored for you?',
         'weight loss': 'For healthy weight loss, consider: 1️⃣ Calorie deficit of 300-500 kcal 2️⃣ High protein intake 3️⃣ Regular exercise 4️⃣ Adequate sleep. I can create a personalized plan based on your lifestyle!',
         'weight gain': 'For healthy weight gain: 1️⃣ Calorie surplus 2️⃣ Strength training 3️⃣ Frequent meals 4️⃣ Healthy fats like nuts, avocados. Let me know your current weight and target!',
         'diabetes': 'Diabetes management focuses on: 1️⃣ Consistent carb intake 2️⃣ Fiber-rich foods 3️⃣ Regular monitoring 4️⃣ Portion control. Would you like specific meal suggestions for blood sugar control?',
-        'appointment': '📅 You can book an appointment through our Appointment page, call +92 300 1234567, or send a message on WhatsApp. We offer both in-person (Sialkot) and online consultations worldwide.',
+        'appointment': '📅 You can book an appointment through our Appointment page, call +92 326 3651982, or send a message on WhatsApp. We offer both in-person (Sialkot) and online consultations worldwide.',
         'cost': '💰 Initial consultation is PKR 2,500. Follow-up sessions are PKR 1,500. Monthly packages start from PKR 5,000 including weekly check-ins and diet plan adjustments.',
         'online': '🌐 Yes! We offer online consultations via Zoom or WhatsApp video call for clients worldwide. Same quality service from the comfort of your home.',
         'meal plan': '🥗 I create personalized meal plans based on your: 1) Health goals 2) Food preferences 3) Lifestyle 4) Medical conditions. Book a consultation to get started!',
@@ -206,7 +206,7 @@ function initAIChat() {
         'thanks': '😊 You\'re welcome! Feel free to ask if you have more questions.',
         'location': '📍 I am located in Sialkot, Pakistan. I offer both in-person and online consultations.',
         'sialkot': '📍 Yes, I practice in Sialkot. You can book an in-person appointment or online consultation.',
-        'contact': '📞 You can reach me at +92 300 1234567, email dnmaryamshahrukh@gmail.com, or via WhatsApp.',
+        'contact': '📞 You can reach me at +92 326 3651982, email dnmaryamshahrukh@gmail.com, or via WhatsApp.',
         'hours': '⏰ Working hours: Mon-Fri 9am-8pm, Sat 10am-4pm. Closed on Sundays.'
     };
     
@@ -753,7 +753,7 @@ window.handleAppointmentSubmit = function(formData) {
 %0A*Submitted:* ${new Date().toLocaleString()}`;
     
     // Open WhatsApp with formatted message
-    window.open(`https://wa.me/923209758905?text=${message}`, '_blank');
+    window.open(`https://wa.me/923263651982?text=${message}`, '_blank');
     
     showNotification('Redirecting to WhatsApp...', 'success');
 };
@@ -779,7 +779,7 @@ function injectSchemaMarkup() {
         "image": "https://ahwm2n1.github.io/Dn-Maryam/images/dietitian-maryam.png",
         "@id": "https://ahwm2n1.github.io/Dn-Maryam",
         "url": "https://ahwm2n1.github.io/Dn-Maryam/",
-        "telephone": "+92 300 1234567",
+        "telephone": "+92 326 3651982",
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
@@ -863,4 +863,5 @@ function injectSchemaMarkup() {
         script2.textContent = JSON.stringify(faqSchema);
         document.head.appendChild(script2);
     }
+
 }
