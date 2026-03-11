@@ -4,7 +4,7 @@
 
 A professional, modern, and fully responsive website for **Dietitian Sajal**, a clinical nutritionist based in Sialkot, Pakistan. The website is designed to showcase her services, qualifications, and provide an easy way for clients to book consultations online.
 
-🔗 **Live Demo:** [https://ahwm2n1.github.io/Dn-Maryam/](https://ahwm2n1.github.io/Dn-Maryam/) *(Update with your actual GitHub Pages URL)*
+🔗 **Live Demo:** [https://ahwm2n1.github.io/Dn-Sajal/](https://ahwm2n1.github.io/Dn-Sajal/) *(Update with your actual GitHub Pages URL)*
 
 ---
 
